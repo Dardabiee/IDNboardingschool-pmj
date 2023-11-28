@@ -45,7 +45,7 @@
 }
 .navbar a:hover{
     color:rgba(120, 117, 115, 0.662);
-    transform: scale(1.2);
+    letter-spacing: .5rem;
    
 }
 
@@ -106,15 +106,16 @@
 .about-container-2{
     margin: 5rem;
     display: grid;
-    grid-template-columns: repeat(1, 1fr);
+    
     align-items: center;
     
 }
-.about-container-2 .about-box-2{
+ .about-box-2{
     flex: 1 1 30rem;
     padding: 3rem 2rem 4rem;
     text-align: center;
     background-color: rgba(231, 232, 232, 0.672);
+    border-radius: 0 15% 0 15%;
 }
 .about-box-2 h4{
     margin: 10px;
@@ -217,13 +218,11 @@
     background-color: rgba(231, 232, 232, 0.672);
     
 }
-
-
 .contact-box h4{
     margin: 5px;
     letter-spacing: 2.4px;
 }
-.contact-box p{
+.contact-box a{
     margin: 2px;
     text-align: center;
     color: rgb(83, 212, 240);
@@ -263,8 +262,49 @@
     .content-text h2{
         font-size: 10rem;
     }
-    
-    
+    .temankami-vid video{
+        width: 100%;
+        height: auto;
+    }
+    .about-box-2 h4{
+        font-size: 10rem;
+    }
+    .about-box-2 p{
+        font-size: 9rem;
+    }
+    .about-container-2{
+        margin: 10px 15%;
+        width: 70%;
+        height: auto;
+    }
+    .daftar-content{
+        padding: 6px;
+    }
+    .daftar-img img{
+        width: 50%;
+        height: auto;
+    }
+    .daftar-content h3{
+        font-size: 14rem; 
+    }
+    .daftar-content p{
+        font-size: 5rem; 
+    }
+    .btn{
+        font-size: 5rem; 
+        padding: 10px 6rem;
+    }
+    .daftar-content{
+        padding: 6px;
+    }
+    .daftar-img img{
+        width: 50%;
+        height: auto;
+    }
+    .daftar-content h3{
+        font-size: 20rem; 
+
+    }
 }
 @media(max-width:991px){
     section{
@@ -288,6 +328,12 @@
         margin:0 10px 0 10px;
         padding: 0 3rem;
     }
+    .temankami-vid video{
+        width: 100%;
+        height: auto;
+        margin: 5rem 7rem;
+    }
+    
     .heading h2{
         font-size: 100%;
     }
@@ -305,28 +351,24 @@
         width: 100%;
         margin-right: 20%;
     }
-    .daftar-content{
-        padding: 6px;
+    
+    .about-box-2 h4{
+        font-size: 10rem;
     }
-    .daftar-img img{
-        width: 50%;
-        height: auto;
-    }
-    .daftar-content h3{
-        font-size: 14rem;
-       
-
+    .about-box-2 p{
+        font-size: 5rem;
     }
     .daftar-content p{
-        font-size: 4rem;
+        font-size: 5rem;
 
     }
     .daftar-content a{
-        font-size: 4rem;
+        font-size: 6rem;
 
     }
     .btn{
-        width: 30%;
+        width: 20%;
+       margin-right: 30rem;
     }
 }
 @media(max-width:768px){
